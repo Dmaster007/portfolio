@@ -1,0 +1,1063 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Durgesh Agrawal's Portfolio</title>
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/site.webmanifest">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<link rel="stylesheet" href="css/aos.css">
+
+	<link rel="stylesheet" href="css/ionicons.min.css">
+
+	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/style.css">
+	
+
+
+	<style>
+		/*======================================
+//--//-->   ABOUT
+======================================*/
+		
+		h4{
+			font-size: 1.25rem;
+		}
+		.about-mf .box-shadow-full {
+			padding-top: 4rem;
+			padding-bottom: 4rem;
+		}
+
+		.about-mf .about-img {
+			margin-bottom: 2rem;
+		}
+
+		.about-mf .about-img img {
+			margin-left: 10px;
+		}
+
+
+		.skill-mf .progress {
+			/* background-color: #cde1f8; */
+			margin: .5rem 0 1.2rem 0;
+			border-radius: 0;
+			height: .7rem;
+		}
+
+		.skill-mf .progress .progress-bar {
+			height: .7rem;
+			background-color: #ffbd39;
+		}
+
+
+		/* Animation styles */
+		#typing-animation {
+			position: relative;
+			font-size: 30px;
+			font-weight: bold;
+			color: rgb(255, 255, 255);
+			overflow: hidden;
+			white-space: nowrap;
+			animation: typing 3s steps(20, end) infinite;
+		}
+
+		#typing-animation:before {
+			content: "";
+			/* position: absolute; */
+			top: 0;
+			left: 0;
+			width: 0;
+			height: 100%;
+			background-color: #ccc;
+			animation: typing-cursor 0.5s ease-in-out infinite;
+		}
+
+		@keyframes typing {
+			from {
+				width: 0;
+			}
+
+			to {
+				width: 100%;
+			}
+		}
+		
+		@keyframes typing-cursor {
+			from {
+				width: 5px;
+			}
+
+			to {
+				width: 0;
+			}
+		}
+
+
+		/* project image zoom effect */
+
+		.zoom-effect {
+			overflow: hidden;
+			transition: transform 0.3s ease-out;
+		}
+
+		.zoom-effect:hover {
+			transform: scale(1.1);
+		}
+
+		.tag {
+    display: inline-flex;
+    align-items: center;
+    background-color: #3b3b51;
+    color: #fff;
+    border-radius: 25px;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    margin: 5px;
+    text-transform: capitalize;
+}
+
+.tag img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    border-radius: 50%;
+}
+
+.counter-wrap {
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center;    /* Vertical centering */
+    text-align: center;     /* Ensure text aligns centrally inside */
+    margin: auto;           /* Center the div itself in the parent container */
+}
+	/* General styling for the text container */
+#home-section .text {
+  text-align: center; /* Center align content */
+  max-width: 90%; /* Fit within mobile screens */
+  margin: 0 auto; /* Center horizontally */
+}
+
+/* Adjust heading and paragraph styles for smaller screens */
+@media (max-width: 768px) {
+  #home-section h1 {
+    font-size: 24px; /* Smaller font size for the main heading */
+    line-height: 1.2; /* Adjust line spacing */
+    margin-bottom: 10px; /* Add spacing below */
+  }
+
+  #home-section h2 {
+    font-size: 16px; /* Adjust secondary heading size */
+    margin-bottom: 15px; /* Add spacing below the heading */
+  }
+
+  #home-section .subheading {
+    font-size: 14px; /* Smaller subheading text */
+  }
+
+  #home-section .btn {
+    display: block;
+    width: 100%; /* Full-width buttons for mobile */
+    margin-bottom: 10px; /* Space between buttons */
+    padding: 10px 15px; /* Adjust padding for a cleaner look */
+    font-size: 14px; /* Adjust button text size */
+  }
+}
+
+/* Extra-small screens (below 576px) */
+@media (max-width: 576px) {
+  #home-section h1 {
+    font-size: 30px; /* Further reduce heading size */
+  }
+
+  #home-section h2 {
+    font-size: 14px;
+  }
+
+  #home-section .btn {
+    font-size: 13px; /* Reduce button text size */
+    padding: 8px 12px; /* Smaller padding for better fit */
+  }
+}
+/* For mobile devices, show content as two paragraphs */
+@media (max-width: 768px) {
+  .intro-text {
+    display: block; /* Ensure they appear as separate blocks (paragraphs) */
+    margin-bottom: 1rem; /* Add space between paragraphs */
+  }
+}
+
+/* For larger screens (PC), combine content into one paragraph */
+@media (min-width: 769px) {
+  .intro-text {
+    display: inline; /* Keep as one single paragraph */
+    margin-bottom: 0; /* No extra margin for desktop view */
+  }
+}
+
+
+	</style>
+
+
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+
+	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+		<div class="container">
+			<a class="navbar-brand" href="index.html">Durgesh Agrawal</a>
+			<button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" style="z-index: 2;" type="button" data-toggle="collapse"
+				data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="oi oi-menu"></span> Menu
+			</button>
+
+			<div class="collapse navbar-collapse" id="ftco-nav">
+				<ul class="navbar-nav nav ml-auto">
+					<li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+					<li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+					<li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+					<li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
+					<li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<section id="home-section" class="hero">
+		<div class="home-slider  owl-carousel">
+			<div class="slider-item ">
+				<div class="overlay"></div>
+				<div class="container">
+					<div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end"
+						data-scrollax-parent="true">
+
+						<div class="one-forth d-flex  align-items-center ftco-animate"
+							data-scrollax=" properties: { translateY: '70%' }">
+							<div class="text">
+								<span class="subheading">Hello!</span>
+								<h1 class="mb-4 mt-3">I'm <span>Durgesh Agrawal </span></h1>
+
+								<!-- Element to contain animated typing -->
+								<span id="typing-animation"></span>
+
+								<script>
+
+									// Initialize the typing animation
+									const typingAnimationElement = document.getElementById('typing-animation');
+
+									// Create an array of typing text
+									const typingTexts = [
+										'Software Developer  ',
+										'Full Stack Developer  ',
+										'AI Enthusiast',
+									];
+
+									// Create a function to display the typing animation for a given text
+									function playTypingAnimation(text) {
+										// Loop through each character and add it to the element
+										for (let i = 0; i < text.length; i++) {
+											setTimeout(() => {
+												typingAnimationElement.textContent += text[i];
+											}, i * 200); // Increase the delay to slow down the typing animation
+										}
+
+										// Once the animation is complete, reset the text and start over
+										setTimeout(() => {
+											typingAnimationElement.textContent = '';
+											playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
+										}, text.length * 200);
+									}
+
+									// Start the typing animation loop
+									playTypingAnimation(typingTexts[0]);
+
+								</script>
+
+								<br>
+								<br>
+								<h2>Software Developer | AI Enthusiast</h2>
+								<!-- <h2 class="d-flex" style="margin-bottom: 0">With over 5 years of experience</h2> -->
+								<!-- <br> -->
+								<div class="btn-container mt-5">
+									<a href="https://www.linkedin.com/in/durgesh-agrawal-4a3617139/" 
+									   class="btn btn-primary py-3 px-4">LinkedIn</a>
+									<a href="https://github.com/Dmaster007" 
+									   class="btn btn-white btn-outline-white py-3 px-4">GitHub</a>
+									<a href="https://drive.google.com/drive/folders/1jBAK5UPteFykEC5ImfxvOg7l9nUNJk6W?usp=sharing" 
+									   class="btn btn-white btn-outline-white py-3 px-4">Resume</a>
+								  </div>								  
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!--   About Section-->
+	<section class="ftco-about img ftco-section ftco-no-pb ftco-animate" id="about-section">
+		<div class="container">
+			<div class="row" style="margin: 30px;">
+				<div class="row d-flex align-items-stretch">
+					<!-- <div class="row d-flex"> -->
+					<div class="col-md-6 col-lg-5 d-flex">
+						<div class="img-about img d-flex align-items-stretch">
+							<div class="overlay">
+								<div class="row">
+									<div class="row align-items-center">
+										<!-- Profile Image Section -->
+										<div class="col-12 col-md-5 text-center mb-3 mb-md-0">
+											<div class="about-img mx-auto" style="position: relative; width: 200px; height: 200px;">
+											  <img 
+												src="images/profile.jpg" 
+												class="img-fluid b-shadow-a" 
+												alt="Durgesh Agrawal" 
+												style="
+												  border: 5px solid white; 
+												  border-radius: 50%; 
+												  object-fit: cover; 
+												  width: 100%; 
+												  height: 100%;"
+											  >
+											</div>
+										  </div>
+										  
+									  
+										<!-- Details Section -->
+										<div class="col-12 col-md-7">
+										  <div class="about-info text-center text-md-start mt-4" style="color: rgb(240, 211, 123);">
+											<p><span class="title-s fw-bold d-block">Durgesh Agrawal</span></p>
+											<p><span class="title-s">Software Developer | AI Enthusiast</span></p>
+											<p><span class="title-s">Jalna, Maharashtra</span></p>
+											<p><span class="title-s">#IITian</span></p>
+										  </div>
+										</div>
+									  </div>
+									  
+								</div>
+								<div class="skill-mf mt-5 ftco-animate mb-3" style="color: rgb(219, 194, 121); font-weight: 500;">
+									<p class="title-s fw-bold text-center mb-3" style="font-size:125%;">Skills</p>
+									
+									<div class="mb-3">
+									  <div class="d-flex justify-content-between">
+										<span>C++</span>
+										<span>90%</span>
+									  </div>
+									  <div class="progress" style="height: 10px;">
+										<div 
+										  class="progress-bar bg-warning" 
+										  role="progressbar" 
+										  style="width: 90%;" 
+										  aria-valuenow="90" 
+										  aria-valuemin="0" 
+										  aria-valuemax="100">
+										</div>
+									  </div>
+									</div>
+								  
+									<div class="mb-3">
+									  <div class="d-flex justify-content-between">
+										<span>C</span>
+										<span>85%</span>
+									  </div>
+									  <div class="progress" style="height: 10px;">
+										<div 
+										  class="progress-bar bg-warning" 
+										  role="progressbar" 
+										  style="width: 85%;" 
+										  aria-valuenow="85" 
+										  aria-valuemin="0" 
+										  aria-valuemax="100">
+										</div>
+									  </div>
+									</div>
+								  
+									<div class="mb-3">
+									  <div class="d-flex justify-content-between">
+										<span>Advanced Excel</span>
+										<span>80%</span>
+									  </div>
+									  <div class="progress" style="height: 10px;">
+										<div 
+										  class="progress-bar bg-warning" 
+										  role="progressbar" 
+										  style="width: 80%;" 
+										  aria-valuenow="80" 
+										  aria-valuemin="0" 
+										  aria-valuemax="100">
+										</div>
+									  </div>
+									</div>
+								  
+									<div class="mb-3">
+									  <div class="d-flex justify-content-between">
+										<span>Python</span>
+										<span>70%</span>
+									  </div>
+									  <div class="progress" style="height: 10px;">
+										<div 
+										  class="progress-bar bg-warning" 
+										  role="progressbar" 
+										  style="width: 70%;" 
+										  aria-valuenow="70" 
+										  aria-valuemin="0" 
+										  aria-valuemax="100">
+										</div>
+									  </div>
+									</div>
+								  
+									<div class="mb-3">
+									  <div class="d-flex justify-content-between">
+										<span>Machine Learning</span>
+										<span>70%</span>
+									  </div>
+									  <div class="progress" style="height: 10px;">
+										<div 
+										  class="progress-bar bg-warning" 
+										  role="progressbar" 
+										  style="width: 70%;" 
+										  aria-valuenow="70" 
+										  aria-valuemin="0" 
+										  aria-valuemax="100">
+										</div>
+									  </div>
+									</div>
+								  
+									<div class="mb-3">
+									  <div class="d-flex justify-content-between">
+										<span>Web Development</span>
+										<span>80%</span>
+									  </div>
+									  <div class="progress" style="height: 10px;">
+										<div 
+										  class="progress-bar bg-warning" 
+										  role="progressbar" 
+										  style="width: 80%;" 
+										  aria-valuenow="80" 
+										  aria-valuemin="0" 
+										  aria-valuemax="100">
+										</div>
+									  </div>
+									</div>
+								  
+									<div class="mb-3">
+									  <div class="d-flex justify-content-between">
+										<span>Statistical Analysis</span>
+										<span>80%</span>
+									  </div>
+									  <div class="progress" style="height: 10px;">
+										<div 
+										  class="progress-bar bg-warning" 
+										  role="progressbar" 
+										  style="width: 80%;" 
+										  aria-valuenow="80" 
+										  aria-valuemin="0" 
+										  aria-valuemax="100">
+										</div>
+									  </div>
+									</div>
+								  </div>
+								  
+								  <div class="mt-4">
+    								<h4 style="color: rgb(219, 194, 121);" class="mt-5 ftco-animate">Data Structures and Algorithms:</h4>
+    								<p>Solved more than 800+ questions across various platforms</p>
+    								<div>
+    								    <a href="https://leetcode.com/u/durgesh_3103/" target="_blank" class="tag"> <img style=" border-radius: 50%; background-color: #fff; padding: 2px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkO5u68gJKlRiAQViV3hmW6ZBJJy8HEZNKCA&s" alt="Linux"> LeetCode</a>
+    								    <a href="https://www.geeksforgeeks.org/user/durges" target="_blank" class="tag"><img style=" border-radius: 50%; background-color: #fff; padding: 2px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4qjRdjm7FHE0HW2lP5m_Po3P4Bh0drMKy0g&s" alt="Linux"> GFG</a>
+    								    <a href="https://codeforces.com/" target="_blank" class="tag"><img style=" border-radius: 50%; background-color: #fff; padding: 2px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3LVEIg_6x2wqlPG8pruOUnUi-wEvnw1eC0w&s" alt="Linux"> CodeForces</a>
+    								    <a href="https://www.codechef.com/users/lush_ima" target="_blank" class="tag"><img style=" border-radius: 50%; background-color: #fff; padding: 2px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEcv_WJfqB-tC3ZFADRoUMMMTtOA6ZzyAA6g&s" alt="Linux"> CodeChef</a>
+    								</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-lg-7 pl-lg-5 pb-5 mt-5">
+						<div class="row justify-content-start pb-3">
+							<div class="col-md-12 heading-section ftco-animate">
+					
+								<h1 class="big">About</h1>
+								<h2 class="mb-4">About Me</h2>
+					
+								<p class="intro-text">
+									I am a passionate software developer, AI enthusiast, and competitive programmer, driven by a deep love for technology and problem-solving. With a strong foundation in coding and a growing expertise in artificial intelligence and machine learning, I am committed to exploring the latest advancements in the tech domain. 
+								  </p>
+								  <p class="intro-text">
+									My experience spans creating innovative solutions and tackling complex problems through logic and creativity. In addition to my technical pursuits, I enjoy analyzing business case studies, applying my analytical skills to solve real-world challenges. My ultimate goal is to leverage technology to create impactful solutions and contribute to a forward-thinking organization.
+								  </p>
+								  
+					
+								<ul style="color: rgb(219, 194, 121);" class="about-info mt-4 px-md-0 px-2">
+									<li class="d-flex"><span>Profile:</span> <span>Software Developer &amp; AI Engineer</span></li>
+									<li class="d-flex"><span>Education:</span> <span> Metallurgy and Material Science Engineering<br>
+											Indian Institute of Technology Bhubaneswar</span></li>
+									<li class="d-flex"><span>Language:</span> <span> Hindi, English</span></li>
+								</ul>
+					
+								<!-- Programming Languages -->
+								<div class="mt-4">
+									<h4 style="color: rgb(219, 194, 121);">Programming Languages:</h4>
+									<div>
+										<span class="tag">
+											<img style=" border-radius: 50%; background-color: #fff; padding: 2px;"src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" alt="C++"> C++
+										</span>
+										<span class="tag">
+											<img style=" border-radius: 50%; background-color: #fff; padding: 2px;"src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" alt="C"> C
+										</span>
+										<span class="tag">
+											<img style=" border-radius: 50%; background-color: #fff; padding: 2px;"src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python"> Python
+										</span>
+										<span class="tag">
+											<img style=" border-radius: 50%; background-color: #fff; padding: 2px;"src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript"> JavaScript
+										</span>
+										<span class="tag">
+											<img style=" border-radius: 50%; background-color: #fff; padding: 2px;"src="https://upload.wikimedia.org/wikipedia/commons/2/2d/TypeScript_ESLint_logo.svg" alt="TypeScript"> TypeScript
+										</span>
+									</div>
+								</div>
+								
+								<!-- Tools -->
+								<div class="mt-4">
+									<h4 style="color: rgb(219, 194, 121);">Tools:</h4>
+									<div>
+										<span class="tag">
+											<img style=" border-radius: 50%; background-color: #fff; padding: 2px;" src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg" alt="Git"> Git
+										</span>
+										<span class="tag">
+											<img style=" border-radius: 50%; background-color: #fff; padding: 2px;" src="https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg" alt="GitHub"> GitHub
+										</span>
+										<span class="tag">
+											<img style=" border-radius: 50%; background-color: #fff; padding: 2px;" src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postman-icon.png" alt="Postman"> Postman
+										</span>
+										<span class="tag">
+											<img style=" border-radius: 50%; background-color: #fff; padding: 3px;" src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" alt="AWS"> AWS
+										</span>
+										<span class="tag">
+											<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLQKd_MRed_mZQlgrzQuUXVA3P39ssOVX8_g&s" alt="Docker"> Docker
+										</span>
+										<span class="tag">
+											<img style=" border-radius: 50%; background-color: #fff; padding: 2px;" src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" alt="Linux"> Linux
+										</span>
+									</div>
+								</div>
+					
+								<!-- Frameworks -->
+								<div class="mt-4">
+									<h4 style="color: rgb(219, 194, 121);">Frameworks:</h4>
+									<div>
+										<span class="tag">
+											<img style=" border-radius: 50%; background-color: #fff; padding: 2px;" src="https://angular.io/assets/images/logos/angular/angular.svg" alt="Angular.js"> Angular.js
+										</span>
+										<span class="tag">
+											<img style=" border-radius: 50%; background-color: #fff; padding: 2px;"src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React.js"> React.js
+										</span>
+										<span class="tag">
+											<img style=" border-radius: 50%; background-color: #fff; padding: 2px;"src="https://w7.pngwing.com/pngs/452/24/png-transparent-js-logo-node-logos-and-brands-icon.png" alt="Node.js"> Node.js
+										</span>
+										<span class="tag">
+											<img style=" border-radius: 50%; background-color: #fff; padding: 2px;"src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Tabler-icons_brand-nextjs.svg" alt="Next.js"> Next.js
+										</span>
+										<span class="tag">
+											<img style=" border-radius: 50%; background-color: #fff; padding: 2px;"src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="Django"> Django
+										</span>
+										<span class="tag">
+											<img style=" border-radius: 50%; background-color: #fff; padding: 2px;"src="https://w7.pngwing.com/pngs/292/912/png-transparent-graphql-query-language-representational-state-transfer-application-programming-interface-github-angle-magenta-query-language.png" alt="Django"> GraphQL
+										</span>
+									</div>
+								</div>
+								<div class="mt-4">
+									<h4 style="color: rgb(219, 194, 121);">Extras:</h4>
+									<div>
+										<span class="tag">
+											<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAIAAAD9b0jDAAAAUElEQVR4Ae3RAQbAQAxE0QXYM4e5Ro7zrxQUgJRCoFCiaPMO8A2zxnhKErAamVlmuvsUf1vcewPNG49LczEiPlmU1FUswO3XVewC1NcvG+MEvqR7x4wP3WYAAAAASUVORK5CYII=" alt="Git"> Shadcn UI
+										</span>
+										<span class="tag">
+											<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdc9Cu5qhiHKriHfFSEfEw3b6GDzBVCojqiw&s" alt="GitHub"> Stream
+										</span>
+										<span class="tag">
+											<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoFwtBOnRhY_EvmqJupnC_rBd8AemYJ7vjcQ&s" alt="Postman"> Firebase
+										</span>
+										<span class="tag">
+											<img style=" border-radius: 50%; background-color: #fff; padding: 2px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgLIRi9QH55YyF2CrngqncN-0sqde5cGuBsg&s" alt="AWS"> Supabase
+										</span>
+										<span class="tag">
+											<img style=" border-radius: 50%; background-color: #fff; padding: 2px;" src="https://w7.pngwing.com/pngs/130/82/png-transparent-prisma-hd-logo.png" alt="Docker"> Prisma ORM
+										</span>
+										<span class="tag">
+											<img style=" border-radius: 50%; background-color: #fff; padding: 2px;" src="https://www.svgrepo.com/show/331488/mongodb.svg" alt="Linux"> MongoDB
+										</span>
+										<span class="tag">
+											<img style=" border-radius: 50%; background-color: #fff; padding: 2px;" src="https://w7.pngwing.com/pngs/70/821/png-transparent-continuous-integration-gitlab-ci-cd-computer-icons-ci.png" alt="Linux"> CI/CD
+										</span>
+										<span class="tag">
+											<img style=" border-radius: 50%; background-color: #fff; padding: 2px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD_aluLlj-02wc-ggLZ9v4iSUTLCNsMocwjw&s" alt="Linux"> Zod
+										</span>
+										<span class="tag">
+											<img style=" border-radius: 50%; background-color: #fff; padding: 2px;" src="https://prettier.io/icon.png" alt="Linux"> Prettier
+										</span>
+									</div>
+								</div>
+								<!-- Interests -->
+								<div class="mt-4">
+									<h4 style="color: rgb(219, 194, 121);">Interests:</h4>
+									<div>
+										<span class="tag">Traveling</span>
+										<span class="tag">Reading</span>
+										<span class="tag">Coding</span>
+									</div>
+								</div>
+								<!-- Data Structures and Algorithms -->
+								
+
+								
+
+							</div>
+						</div>
+					</div>
+					
+
+
+						<div class="counter-wrap ftco-animate d-flex mt-md-3 ">
+							<div class="text">
+								<p class="mb-4">
+									<span class="number" data-number="10">0</span> <span>+</span>
+									<span>&nbsp; Projects completed</span>
+								</p>
+								<p><a href="https://www.linkedin.com/in/durgesh-agrawal-4a3617139/"
+										class="btn btn-primary py-3 px-3">LinkedIn</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- Reasume section -->
+
+	<section class="ftco-section ftco-no-pb" style="margin: 20px;" id="resume-section">
+		<div class="container">
+			<div class="row justify-content-center pb-3">
+				<div class="col-md-10 heading-section text-center ftco-animate">
+					<h1 class="big big-2">Resume</h1>
+					<h2 class="mb-4">Resume</h2>
+					<p style="color: rgb(219, 194, 121);" >Passionate software developer dedicated to transforming innovative ideas into impactful solutions through technology.</p>
+				</div>
+			</div>
+			<div class="d-flex align-items-center justify-content-center pb-5 ftco-animate">
+				<p>
+				  <a href="https://drive.google.com/drive/u/0/folders/1jBAK5UPteFykEC5ImfxvOg7l9nUNJk6W" class="btn btn-primary py-3 px-3">
+					LINK
+				  </a>
+				</p>
+			  </div>
+
+			<div class="row ftco-animate">
+				<h1 class="big-4">Education</h1>
+				<div class="underline"></div>
+			</div>
+			<br>
+
+			<div class="row">
+				<div class="col-md-6 d-flex">
+					<!-- <div class="resume-wrap ftco-animate mx-3">
+					  <span class="date">2019-2021</span>
+					  <h2>Science</h2>
+					  <span class="position">Devegiri junior College , Aurangabad</span>
+					  <p class="mt-4">Precentage: 92.33%.</p>
+					</div> -->
+					<div class="resume-wrap ftco-animate">
+					  <span class="date">2021-2025</span>
+					  <h2>Btech in Metallurgy and Material Science & Engineering</h2>
+					  <span class="position">Indian Institute of Technology Bhubaneswar</span>
+					  <p class="mt-4">Grade: First class distinction.</p>
+					</div>
+				  </div>
+				  
+			</div>
+	</section>
+
+	<!-- Project Section-->
+
+	<section class="ftco-section" id="project-section" style="margin: 30px;">
+    <div class="container">
+        <!-- Section Heading -->
+        <div class="row justify-content-center mb-2 pb-5">
+            <div class="col-md-7 heading-section text-center ftco-animate">
+                <h1 class="big big-2">Projects</h1>
+                <h2 class="mb-4">Projects</h2>
+                <p style="color: rgb(219, 194, 121);">Here are my Software Development Projects.</p>
+            </div>
+        </div>
+
+        <!-- Projects Row -->
+        <div class="row">
+            <!-- Project 1 -->
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+					<a href="https://github.com/lalit-mohanani/Hostel-Complain-Portal" 
+						class="block-20 zoom-effect" 
+						style="background-image: url('images/hmp.png');">
+					</a>
+					<div class="text mt-3">
+						<h3 class="heading">
+							<a href="https://github.com/lalit-mohanani/Hostel-Complain-Portal">
+								Hostel Management Portal
+							</a>
+						</h3>
+						<p>
+							<strong>Hostel Management Portal</strong> is a streamlined solution for managing complaints and announcements in hostels and residence halls. Key features include:
+						</p>
+						<ul>
+							<li><strong>Complaint Lodging:</strong> Students can lodge complaints with statuses like Accepted, Rejected, or Pending.</li>
+							<li><strong>Hierarchical Escalation:</strong> Complaints can be escalated to higher-ranking officers for better resolution.</li>
+							<li><strong>Announcement Section:</strong> View the latest management updates with role-based visibility.</li>
+							<li><strong>Filters:</strong> Filter complaints by hostel, category, year, or date for precise results.</li>
+							<li><strong>Privacy:</strong> Public and private complaint visibility options ensure transparency and confidentiality.</li>
+						</ul>
+						<p>
+							<strong>Tech Stack:</strong> HTML5, Bootstrap, PHP, MySQL.
+						</p>
+					</div>
+				</div>
+			</div>
+			
+			
+
+            <!-- Project 2 -->
+            <div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+					<a href="https://github.com/Dmaster007/PMS" 
+						class="block-20 zoom-effect" 
+						style="background-image: url('images/pms_project.jpg');">
+					</a>
+					<div class="text mt-3">
+						<h3 class="heading">
+							<a href="https://github.com/Dmaster007/PMS">
+								Project Management System
+							</a>
+						</h3>
+						<p>
+							<strong>Project Management System (PMS)</strong> is a comprehensive solution to manage team projects efficiently. Key features include:
+						</p>
+						<ul>
+							<li><strong>Issue Tracking:</strong> Admins assign issues with categories, priorities, and due dates.</li>
+							<li><strong>Role Management:</strong> Admins add users; both users and admins can assign tasks.</li>
+							<li><strong>Kanban Board:</strong> Visual task tracking to monitor progress.</li>
+							<li><strong>Reports:</strong> Generate reports with insights using dynamic charts.</li>
+							<li><strong>Security:</strong> JWT tokens and Auth0 for secure authentication.</li>
+						</ul>
+						<p>
+							<strong>Tech Stack:</strong> AngularJS, Node.js, Express, MongoDB.
+						</p>
+					</div>
+				</div>
+			</div>
+			
+
+            <!-- Project 3 -->
+            <div class="col-md-4 d-flex ftco-animate">
+                <div class="blog-entry justify-content-end">
+                    <a href="https://github.com/Dmaster007/Chat-app" 
+                        class="block-20 zoom-effect" 
+                        style="background-image: url('images/meetup.png');">
+                    </a>
+                    <div class="text mt-3">
+                        <h3 class="heading">
+                            <a href="https://github.com/Dmaster007/Chat-app">
+                                Meetup - Real-Time Chat Application
+                            </a>
+                        </h3>
+                        <p>
+                            <strong>Meetup</strong> is a versatile real-time chat application designed for seamless communication. It offers:
+                        </p>
+                        <ul>
+                            <li><strong>Real-Time Chat:</strong> 1-1 chat and group chat functionality.</li>
+                            <li><strong>Video Conferencing:</strong> Live video calls with multiple participants.</li>
+                            <li><strong>Rich Messaging Features:</strong> Emoji reactions, threaded conversations, and notifications.</li>
+                            <li><strong>Secure Authentication:</strong> Google Auth0 and JWT for secure login.</li>
+                        </ul>
+                        <p>
+                            <strong>Tech Stack:</strong> React, Chakra UI, Express, MongoDB.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+		
+		<p class="title-s fw-bold text-center mb-3 ftco-animate " style="font-size:1rem; color: #e0bf7c;">Here are My Analytical (SQL, Python) and GenAI Projects</p>
+        <!-- Next Row -->
+        <div class="row mt-5">
+            <!-- Project 4 -->
+            <div class="col-md-4 d-flex ftco-animate">
+                <div class="blog-entry justify-content-end">
+                    <a href="https://github.com/Dmaster007/medi-co" 
+                        class="block-20 zoom-effect" 
+                        style="background-image: url('images/medico.png');">
+                    </a>
+                    <div class="text mt-3">
+                        <h3 class="heading">
+                            <a href="https://github.com/Dmaster007/medi-co">
+                                Medico
+                            </a>
+                        </h3>
+                        <p>A intelligent application uses Artifical Intelligence (AI), designed to simplify healthcare management. It helps users analyze medical reports, identifies potential diseases based on symptoms, and recommends nearby hospitals for care. Additionally, it offers emotional support to ensure patients feel comforted and informed.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="col-md-4 d-flex ftco-animate">
+                <div class="blog-entry justify-content-end">
+                    <a href="https://github.com/Dmaster007/Calender" 
+                        class="block-20 zoom-effect" 
+                        style="background-image: url('images/calender.png');">
+                    </a>
+                    <div class="text mt-3">
+                        <h3 class="heading">
+                            <a href="https://github.com/Dmaster007/Calender">
+                                Evento
+                            </a>
+                        </h3>
+                        <p> Event and Task management app inspired by Google Calendar. Users can create customizable events with fields like title, description, category, date, and event type, all organized with color coding. It includes reminders, notifications, and integrates with a to-do app, displaying tasks directly on the calendar. </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 6 -->
+            <div class="col-md-4 d-flex ftco-animate">
+                <div class="blog-entry justify-content-end">
+                    <a href="https://github.com/Dmaster007/Pizza-sales-analyses" 
+                        class="block-20 zoom-effect" 
+                        style="background-image: url('images/Pizza_sales.jpg');">
+                    </a>
+                    <div class="text mt-3">
+                        <h3 class="heading">
+                            <a href="https://github.com/Dmaster007/Pizza-sales-analyses">
+                                Pizza Sales Analysis
+                            </a>
+                        </h3>
+                        <p>A MySQL project analyzing pizza sales data using multiple datasets. The analysis provides insights into sales trends, customer behavior, and business performance, addressing 13 key questions for data-driven decision-making.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+		<div class="d-flex row justify-content-center">
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+					<a href="https://github.com/Dmaster007/Finance-Tracker"
+						class="block-20 zoom-effect"
+						style="background-image: url('images/finance.png');">
+					</a>
+					<div class="text mt-3 float-right d-block">
+
+						<h3 class="heading"><a
+								href="https://github.com/Dmaster007/Finance-Tracker">Finance Tracker</a></h3>
+						<p>The Finance Tracker is a Django-based web app designed to simplify personal finance management. It offers features like expense tracking, budget management, savings goals, and data visualizations, along with personalized alerts. This intuitive app helps users stay on top of their finances while showcasing my skills in creating efficient, user-friendly solutions.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+					<a href="https://github.com/Dmaster007/food-delivery-cost-analysis"
+						class="block-20 zoom-effect"
+						style="background-image: url('images/Py_Food.jpg');">
+					</a>
+					<div class="text mt-3 float-right d-block">
+
+						<h3 class="heading"><a
+								href="https://github.com/Dmaster007/food-delivery-cost-analysis">Food
+								Delivery Cost Analysis Using Python</a></h3>
+						<p>This project, Food Delivery Cost Analysis Using Python, explores the costs,
+							discounts, and profitability within a food delivery dataset.
+							Using Python for data cleaning, transformation, and visualization,
+							the project provides insights into cost distribution, profit margins, and
+							identifies areas for potential cost optimization.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+</section>
+
+	<!-- Achivement to github section-->
+	<section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
+		<div class="container">
+			<div class="row d-md-flex align-items-center">
+				<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+					<div class="block-18">
+						<div class="text">
+							<strong class="number" data-number="10">0</strong>
+							<span>Achievements</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+					<div class="block-18">
+						<div class="text">
+							<strong class="number" data-number="15">0</strong>
+							<span>Projects</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<div class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg_1.jpg)">
+			<!-- <div class="container"> -->
+			<div class="row justify-content-center">
+				<div class="col-md-7 ftco-animate text-center">
+					<h2>More projects on<span> Github </span> </h2>
+					<div class="heading">
+						<br>
+						<p><a href="https://github.com/dmaster007" class="btn btn-primary py-3 px-5">GitHub</a></p>
+					</div>
+				</div>
+			</div>
+			<!-- </div> -->
+		</div>
+	</section>
+
+
+	<!--Contact Section -->
+	<section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-3">
+				<div class="col-md-7 heading-section text-center ftco-animate">
+					<h1 class="big big-2">Contact</h1>
+					<h2 class="mb-4">Contact ME</h2>
+					<p>Below are the details to reach out to me!</p>
+				</div>
+			</div>
+
+			<div class="row d-flex contact-info mb-5">
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box p-4 text-center">
+						<a href="https://maps.app.goo.gl/TK3Smegedx4d7iin6" target="_blank"
+							class="icon d-flex align-items-center justify-content-center">
+							<span class="icon-map-signs"></span>
+						</a>
+						<h3 class="mb-4">Address</h3>
+						<p>27 , Ajantha Nagar , Jalna , Maharashtra India</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box p-4 text-center">
+						<a href="tel:+8801976133731" class="icon d-flex align-items-center justify-content-center">
+							<span class="icon-phone2"></span>
+						</a>
+						<h3 class="mb-4">Contact Number</h3>
+						<p><a href="tel:+918329391195">+91 8329391195</a></p>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box p-4 text-center">
+						<a href="mailto:durgesh3103@gmail.com"
+							class="icon d-flex align-items-center justify-content-center">
+							<span class="icon-paper-plane"></span>
+						</a>
+						<h3 class="mb-4">Email Address</h3>
+						<p><a href="mailto:durgesh3103@gmail.com">durgesh3103@gmail.com</a></p>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box p-4 text-center">
+						<a href="https://drive.google.com/drive/folders/1jBAK5UPteFykEC5ImfxvOg7l9nUNJk6W?usp=sharing" target="_blank"
+							class="icon d-flex align-items-center justify-content-center">
+							<span class="icon-globe"></span>
+						</a>
+						<h3 class="mb-4">Download Resume</h3>
+						<p><a href="https://drive.google.com/drive/folders/1jBAK5UPteFykEC5ImfxvOg7l9nUNJk6W?usp=sharing" target="_blank">Resume Link</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<br>
+			<br>
+			<div class="row justify-content-center">
+				<div class="col-md-7 ftco-animate text-center">
+					<h2>Have a<span> Question? </span> <a href="https://tinyurl.com/cvmzfk35"
+							class="btn btn-primary py-3 px-5" >Click Here</a> </h2>
+				</div>
+			</div>
+			<br>
+			<ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
+				<li class="ftco-animate normal-txt">Find me on </li>
+				<li class="ftco-animate"><a href="https://github.com/Dmaster007"><span class="icon-github"></span></a>
+				</li>
+				<li class="ftco-animate"><a href="https://www.linkedin.com/in/durgesh-agrawal-4a3617139/"><span
+							class="icon-linkedin"></span></a></li>
+				<!-- <li class="ftco-animate"><a href="https://www.instagram.com/nameisshaun/"><span
+							class="icon-instagram"></span></a></li> -->
+			</ul>
+			<br>
+		</div>
+		</div>
+	</section>
+
+
+	<!-- Footer section for all right -->
+
+	<footer class="ftco-footer ftco-section ftco-animate">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+
+					<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						&copy;
+						<script>document.write(new Date().getFullYear());</script> All rights reserved | <a
+							href="https://www.linkedin.com/in/durgesh-agrawal-4a3617139/" target="_blank">Durgesh Agrawal</a>
+						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<!-- loader -->
+	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+			<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+				stroke="#F96D00" />
+		</svg></div>
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-migrate-3.0.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/aos.js"></script>
+	<script src="js/jquery.animateNumber.min.js"></script>
+	<script src="js/scrollax.min.js"></script>
+
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>
